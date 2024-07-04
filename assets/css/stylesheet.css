@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('/assets/fonts/LuckiestGuy-Regular.ttf');
+}
