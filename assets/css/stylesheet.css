@@ -9,6 +9,13 @@ header{
     padding: 2vw;
 }
 
+header h1{
+    font-family: 'Luckiest Guy';
+    color: white;
+    font-size: 4vh;
+    width: 80%;
+}
+
 @font-face {
     font-family: 'Open Sans';
     src: url('/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
