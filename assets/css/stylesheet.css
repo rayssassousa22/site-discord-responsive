@@ -57,6 +57,7 @@ header button{
 
 main{
     font-family: 'Open Sans';
+    text-align: center;
 }
 
 main .content-white img, main .content-grey img {
@@ -68,6 +69,7 @@ main .content-white h2, main .content-grey h2{
     font-weight: bold;
     font-size: 3vh;
     margin: 3vw;
+    text-align: left;
 }
 .font h2{
     font-family: 'Luckiest Guy';
@@ -80,6 +82,7 @@ main .content-white p, main .content-grey p{
     font-size: 1rem;
     padding: 0 3vw 2vh;
     margin: 0;
+    text-align: left;
 }
 
 footer{
@@ -101,3 +104,5 @@ footer img{
     font-family: 'Luckiest Guy';
     src: url('/assets/fonts/LuckiestGuy-Regular.ttf');
 }
+
+@media (min-width: 768px)
