@@ -105,4 +105,23 @@ footer img{
     src: url('/assets/fonts/LuckiestGuy-Regular.ttf');
 }
 
-@media (min-width: 768px)
+@media (min-width: 768px){
+    header{
+        text-align: center;
+    }
+
+    header h1{
+        width: 100%;
+    }
+
+    #button-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    #button-section button {
+        border-radius: 40px;
+    }
+}
