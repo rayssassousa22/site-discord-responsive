@@ -47,6 +47,31 @@ header button{
     color: white;
 }
 
+.content-white{
+    background-color: white;
+}
+
+.content-grey{
+    background-color: rgb(238, 236, 236);
+}
+
+main .content-white img, main .content-grey img {
+    max-width: 100%;
+    margin: 4vh 4vw;
+}
+
+main .content-white h2, main .content-grey h2{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 3vh;
+    margin: 4vw;
+}
+
+main .content-white p, main .content-grey p{
+    font-size: 1rem;
+    margin: 4vh 4vw;
+}
+
 @font-face {
     font-family: 'Open Sans';
     src: url('/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
