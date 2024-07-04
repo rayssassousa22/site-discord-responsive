@@ -1,5 +1,12 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-image: url(/assets/images/Header\ Background.png);
+    background-size: cover;
+    padding: 2vw;
 }
 
 @font-face {
