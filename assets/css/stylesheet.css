@@ -82,6 +82,16 @@ main .content-white p, main .content-grey p{
     margin: 0;
 }
 
+footer{
+    background-color: black;
+    text-align: center;
+    height: fit-content;
+}
+
+footer img{
+    margin: 4vh auto;
+}
+
 @font-face {
     font-family: 'Open Sans';
     src: url('/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
