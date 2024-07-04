@@ -55,25 +55,31 @@ header button{
     background-color: rgb(238, 236, 236);
 }
 
+main{
+    font-family: 'Open Sans';
+}
+
 main .content-white img, main .content-grey img {
     max-width: 100%;
-    margin: 4vw;
+    margin: 2vw;
 }
 
 main .content-white h2, main .content-grey h2{
-    font-family: 'Open Sans';
     font-weight: bold;
     font-size: 3vh;
     margin: 3vw;
 }
+.font h2{
+    font-family: 'Luckiest Guy';
+    font-weight: normal;
+    font-size: 4vh;
+    letter-spacing: 1px;
+}
 
 main .content-white p, main .content-grey p{
     font-size: 1rem;
-    padding: 0 3vw 4vh;
-}
-
-.font h2{
-    font-family: 'Luckiest Guy';
+    padding: 0 3vw 2vh;
+    margin: 0;
 }
 
 @font-face {
