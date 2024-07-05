@@ -133,8 +133,12 @@ footer img{
         align-items: center;
     }
 
+    .reverse{
+        flex-direction: row-reverse;
+    }
+
     section{
-        padding: 3vh;
+        padding: 1vh;
     }
 
     .content-grey .section-content img, .content-white .section-content img {
