@@ -130,17 +130,21 @@ footer img{
     .section-content{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     section{
         padding: 3vh;
+        justify-content: center;
     }
 
-    .content-grey .section-content img {
-        max-width:100%;
+    .content-grey .section-content img, .content-white .section-content img {
+        max-width:50%;
+        height: 20%;
     }
 
     .section-content .text-section{
         display: block;
+        width: fit-content;
     }
 }
