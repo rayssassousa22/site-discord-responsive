@@ -157,4 +157,15 @@ footer img{
         margin: 3vw;
         text-align: left;
     }
+    .font{
+        display: block;
+    }
+
+    .font .text-section h2{
+        font-family: 'Luckiest Guy';
+        font-weight: normal;
+        font-size: 2rem;
+        margin: 3vw;
+        text-transform: uppercase;
+    }
 }
