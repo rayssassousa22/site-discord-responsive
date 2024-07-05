@@ -125,3 +125,20 @@ footer img{
         border-radius: 40px;
     }
 }
+
+@media (min-width: 768px){
+    .section-content{
+        display: flex;
+        margin: auto 10vw;
+        justify-content: center;
+    }
+
+    .section-content img {
+        max-width: 100%;
+    }
+
+    .text-section{
+        display: block;
+        width: 40%;
+    }
+}
