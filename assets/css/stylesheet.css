@@ -60,13 +60,13 @@ main{
     text-align: center;
 }
 
-main .content-white img, main .content-grey img {
+.section-content img,.section-content img {
     max-width: 100%;
     margin: 2vw;
 }
 
-main .content-white h2, main .content-grey h2{
-    font-weight: bold;
+.section-content .text-section h2, .section-content .text-section h2{
+    font-weight: 800;
     font-size: 3vh;
     margin: 3vw;
     text-align: left;
@@ -78,7 +78,7 @@ main .content-white h2, main .content-grey h2{
     letter-spacing: 1px;
 }
 
-main .content-white p, main .content-grey p{
+.section-content .text-section p, .section-content .text-section p{
     font-size: 1rem;
     padding: 0 3vw 2vh;
     margin: 0;
@@ -135,7 +135,6 @@ footer img{
 
     section{
         padding: 3vh;
-        justify-content: center;
     }
 
     .content-grey .section-content img, .content-white .section-content img {
@@ -146,5 +145,12 @@ footer img{
     .section-content .text-section{
         display: block;
         width: fit-content;
+    }
+
+    .section-content .text-section h2{
+        font-weight: 800;
+        font-size: 2rem;
+        margin: 3vw;
+        text-align: left;
     }
 }
