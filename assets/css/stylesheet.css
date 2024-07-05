@@ -161,6 +161,10 @@ footer img{
         display: block;
     }
 
+    .font .text-section h2, .font .text-section p{
+        text-align: center;
+    }
+
     .font .text-section h2{
         font-family: 'Luckiest Guy';
         font-weight: normal;
