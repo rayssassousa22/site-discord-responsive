@@ -5,7 +5,7 @@ body{
 
 header{
     background-image: url(/assets/images/Header\ Background.png);
-    background-size:auto;
+    background-size:cover;
     background-position: bottom;
     padding: 2vw;
 }
@@ -170,5 +170,39 @@ footer img{
         font-size: 2rem;
         margin: 3vw;
         text-transform: uppercase;
+    }
+
+    .font img {
+        max-width: 50%;
+    }
+}
+
+@media (min-width:1700px){
+    .content-grey .section-content img, .content-white .section-content img {
+        max-width:100%;
+    }
+
+    .section-content .text-section{
+        display: block;
+        max-width: 25vw;
+    }
+
+    .section-content .text-section h2{
+        font-weight: 800;
+        font-size: 4em;
+        margin: 3vw;
+        text-align: left;
+    }
+
+    .font .text-section h2{
+        text-align: center;
+    }
+
+    .font .text-section {
+        margin: 10px auto;
+    }
+
+    .content-grey .text-section p, .content-white .text-section p{
+        font-size: 3em;
     }
 }
