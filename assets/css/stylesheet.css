@@ -154,7 +154,7 @@ footer img{
     }
 
     .content-grey .section-content img, .content-white .section-content img {
-        max-width:70%;
+        max-width:60%;
     }
 
     .section-content .text-section{
@@ -190,6 +190,10 @@ footer img{
 }
 
 @media (min-width:1700px){
+    .font{
+        display: inline-flex;
+        flex-direction: column;
+    }
     .content-grey .section-content img, .content-white .section-content img {
         max-width:100%;
     }
@@ -201,8 +205,8 @@ footer img{
 
     .section-content .text-section h2{
         font-weight: 800;
-        font-size: 4em;
-        margin: 3vw;
+        font-size: 2rem;
+        margin: 2vh 3vw;
         text-align: left;
     }
 
@@ -210,11 +214,15 @@ footer img{
         text-align: center;
     }
 
-    .font .text-section {
-        margin: 10px auto;
+    .content-grey .text-section p, .content-white .text-section p{
+        font-size: 1rem;
     }
 
-    .content-grey .text-section p, .content-white .text-section p{
-        font-size: 3em;
+    .font img{
+        max-width: 70%;
+    }
+
+    .content-grey{
+        height: fit-content;
     }
 }
