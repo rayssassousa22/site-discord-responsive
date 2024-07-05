@@ -61,8 +61,16 @@ main{
 }
 
 .section-content img,.section-content img {
-    max-width: 100%;
+    max-width: 90%;
     margin: 2vw;
+}
+
+.font img {
+    max-width: 80%;
+}
+
+.font .text-section {
+    padding: 10px;
 }
 
 .section-content .text-section h2, .section-content .text-section h2{
@@ -71,7 +79,11 @@ main{
     margin: 3vw;
     text-align: left;
 }
-.font h2{
+
+.font .text-section p, .font .text-section h2{
+    text-align: center;
+}
+.font .text-section h2{
     font-family: 'Luckiest Guy';
     font-weight: normal;
     font-size: 4vh;
