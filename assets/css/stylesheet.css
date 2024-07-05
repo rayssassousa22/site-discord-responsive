@@ -129,16 +129,18 @@ footer img{
 @media (min-width: 768px){
     .section-content{
         display: flex;
-        margin: auto 10vw;
         justify-content: center;
     }
 
-    .section-content img {
-        max-width: 100%;
+    section{
+        padding: 3vh;
     }
 
-    .text-section{
+    .content-grey .section-content img {
+        max-width:100%;
+    }
+
+    .section-content .text-section{
         display: block;
-        width: 40%;
     }
 }
